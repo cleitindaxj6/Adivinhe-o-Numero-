@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --vermelho-vibrante: #b80d0d; 
+    --vermelho-intenso: #ff6347; 
+    --amarelo-brilhante: #ffeb3b; 
+    --azul-profundo: #003f87; 
+    --azul-claro: #0099cc; 
+    --fonte-titulo: "Anton", sans-serif;
+    --fonte-texto: "Chakra Petch", sans-serif;
+}
+
+body {
+    background-color: var(--amarelo-brilhante);
+    color: var(--vermelho-vibrante);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+    color: var(--azul-profundo);
+    font-size: 2em;
+}
+
+h3 {
+    font-family: var(--fonte-texto);
+    color: var(--azul-claro);
+    font-size: 2em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    color: var(--azul-profundo);
+    background-color: var(--azul-claro);
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.box {
+    border: 8px double var(--vermelho-intenso);
+    border-radius: 25px;
+    display: inline-block;
+    font-family: var(--fonte-texto);
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    text-shadow: 3px 3px 3px var(--azul-profundo);
+    font-size: 4em;
+    color: var(--azul-claro);
+}
